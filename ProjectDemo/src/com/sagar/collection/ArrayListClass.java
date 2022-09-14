@@ -11,8 +11,9 @@ public class ArrayListClass {
 		str.add("Amol");
 		str.add("Rahul");
 		str.add("Vishal");
-		Collections.sort(str);
-		System.out.println(str);
+		for(String s : str) {
+			System.out.println(str);
+		}
 		
 	}
 
